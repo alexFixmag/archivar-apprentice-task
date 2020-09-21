@@ -6,8 +6,8 @@
 (пакеты: client, soapwebserviceconfig, SoapController.class).
 # Запуск
 Приложение запускается на http://localhost:8080/api \
-Fly-away скрипты должны создать две БД, одну для Медицинских организаций (archivist.ref_mo).\
-Другую - (archivist.patients) для БД, для Пациентов, которую необходимо было создать самостоятельно, для сохранения данных. \
+Fly-away скрипты должны создать две PostgreSQL БД (изначальный url Базы Данных указан в application.yaml), одну для Медицинских организаций (archivist.ref_mo).\
+Другую - (archivist.patients) для Пациентов, которую необходимо было создать самостоятельно, для сохранения данных. \
 REST методы (Более-внимательно и удобно можно посмотреть используя Swagger http://localhost:8080/swagger-ui.html): \
 GET:\
 http://localhost:8080/api/mo - возвратит JSON список Медицинских Организаций. \
