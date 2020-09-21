@@ -1,0 +1,1 @@
+insert  into archivist.patients (user_id, name, surname, patronymic,date_of_birth, snils_id, polys_oms_id, patient_card_id, date_insert, date_update) values ('98269','Александр','Скоморох', 'Павлович','2000-01-04','7461','23821','171314',NOW(),NOW());
