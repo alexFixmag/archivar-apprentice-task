@@ -50,15 +50,4 @@ public class ApiController {
     public Optional<Patient> lookUpPatientBySurname(@PathVariable("surname") String surname){
         return patientService.lookUpPatient(null, surname);
     }
-
-    //url example: http://localhost:8080/api/iemk?snilsId=a71j7
-    /*@RequestMapping(value = "/iemk", method = RequestMethod.GET, params = {"snilsId"})
-    public Optional<Patient> lookUpPatientBySnilsId(@RequestParam("snilsId") String snilsId){
-        return patientService.lookUpPatient(snilsId, null);
-    }*/
-    //url example: http://localhost:8080/api/iemk?surname=Bolshoy
-    /*@RequestMapping(value = "/iemk", method = RequestMethod.GET, params = {"surname"})
-    public Optional<Patient> lookUpPatientBySurname(@RequestParam("surname") String surname){
-        return patientService.lookUpPatient(null, surname);
-    }*/
 }
